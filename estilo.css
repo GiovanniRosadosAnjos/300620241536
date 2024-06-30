@@ -1,0 +1,62 @@
+body {
+   
+    background: rgba(218, 245, 170, 0.956);
+  
+   
+
+    display: flex;
+    justify-content: center;        /* centraliza na horizontal ---- https://www.youtube.com/watch?v=ZmaBaS5VroQ&t=1598s */
+    
+
+    align-items: center;            /* centraliza na vertical */
+    flex-flow: column;
+
+}
+
+/* c
+  width: 100vw;
+    height: 100vh;
+
+*/
+
+
+
+form{
+    background: rgb(134, 128, 125);
+    display: flex;                          /* quando ajusta a altura de um campo do form, todos ajusta automaticamente */
+    
+    flex-flow: column wrap;                 /* reordenou tudo de linhas para colunas */
+    padding: 20px;
+    border-radius: 10px;
+   
+    background: linear-gradient(#caf204,#080000);
+    min-width: 300px;
+
+}
+
+
+
+
+button{
+    
+    margin-top: 5px;
+    background: rgb(236, 238, 232);
+    cursor: pointer;
+    
+}
+
+
+Button:hover{
+    background: rgb(241, 238, 10);
+  }
+
+
+
+.mensagens {
+    background: rgba(166, 197, 28, 0.956);
+    padding: 10px;
+    display: flex;
+    margin-top: 20;
+    flex-flow: column;
+}
+
